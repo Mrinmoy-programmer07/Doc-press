@@ -89,7 +89,7 @@ export function CertificateForm({ type, onSuccess }: CertificateFormProps) {
             <FormItem>
               <FormLabel>Student Name</FormLabel>
               <FormControl>
-                <Input placeholder="John Doe" {...field} />
+                <Input placeholder="Enter Your Name" {...field} />
               </FormControl>
               <FormDescription>Full name of the student as it appears on the certificate.</FormDescription>
               <FormMessage />
@@ -104,7 +104,7 @@ export function CertificateForm({ type, onSuccess }: CertificateFormProps) {
             <FormItem>
               <FormLabel>Course</FormLabel>
               <FormControl>
-                <Input placeholder="Computer Science" {...field} />
+                <Input placeholder="eg:Computer Science" {...field} />
               </FormControl>
               <FormDescription>The course or degree program completed.</FormDescription>
               <FormMessage />
@@ -119,7 +119,7 @@ export function CertificateForm({ type, onSuccess }: CertificateFormProps) {
             <FormItem>
               <FormLabel>University</FormLabel>
               <FormControl>
-                <Input placeholder="University of Blockchain" {...field} />
+                <Input placeholder="University Name" {...field} />
               </FormControl>
               <FormDescription>The institution that issued the certificate.</FormDescription>
               <FormMessage />
